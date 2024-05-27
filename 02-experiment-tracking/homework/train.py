@@ -7,6 +7,7 @@ from sklearn.metrics import mean_squared_error
 
 import mlflow
 
+# Question 3: train a model with autolog
 mlflow.set_tracking_uri("sqlite:///mlflow.db")
 mlflow.set_experiment("homework")
 
@@ -22,7 +23,7 @@ def load_pickle(filename: str):
     help="Location where the processed NYC taxi trip data was saved"
 )
 def run_train(data_path: str):
-    
+    # Question 3: train a model with autolog
     mlflow.sklearn.autolog()
 
     with mlflow.start_run():

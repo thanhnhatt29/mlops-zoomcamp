@@ -35,6 +35,7 @@ def run_optimization(data_path: str, num_trials: int):
 
     def objective(params):
         with mlflow.start_run():
+            # Question 5: tune model hyperparameters - log the hyperparameters
             mlflow.log_params(params)
 
             rf = RandomForestRegressor(**params)
@@ -42,6 +43,7 @@ def run_optimization(data_path: str, num_trials: int):
             y_pred = rf.predict(X_val)
             rmse = mean_squared_error(y_val, y_pred, squared=False)
 
+            # Question 5: tune model hyperparameters - log the RMSE
             mlflow.log_metric("rmse", rmse)
 
             return {'loss': rmse, 'status': STATUS_OK}

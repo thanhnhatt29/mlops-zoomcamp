@@ -1,0 +1,144 @@
+Script started on 2024-05-27 13:07:50+00:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="157" LINES="19"]
+(base) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ conda activate [K experiment0[K-tracking
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ mlflow --version
+mlflow, version 2.13.0
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ python preprocess_data.py --raw_data_path <TAXI_DATA_FOLDER> --dest_path ./output[1P[1P[1P[1P[1P[1P[1P[1P
+[1P[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C -[C[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --d[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --de[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --des[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_p[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_pa[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C--dest_pat[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_path[1P ./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_path [1P./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_path .[1P/output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_path ./[1Poutput[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cp --dest_path ./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca --dest_path ./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct --dest_path ./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ch --dest_path ./output[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_pa[1@t[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C. --dest_p[1@a[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --dest_pa[1P[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cd --dest_p[1@a[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca --dest_[1@p[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ct --dest[1@_[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca --des[1@t[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C --de[1@s[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C.data  --d[1@e[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C/data  --[1@d[A
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ cd output/
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m.../mlops-zoomcamp/02-experiment-tracking/homework/output [0;36m([1;31mmain[0;36m) [0m$ ls
+dv.pkl  test.pkl  train.pkl  val.pkl
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m.../mlops-zoomcamp/02-experiment-tracking/homework/output [0;36m([1;31mmain[0;36m) [0m$ x[Kcd ..
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ python train.py 
+2024/05/27 13:17:16 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+2024/05/27 13:17:31 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/_distutils_hack/__init__.py:26: UserWarning: Setuptools is replacing distutils."
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ 
+[K(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ python hpo.py 
+
+  0%|                                                                        | 0/15 [00:00<?, ?trial/s, best loss=?]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+  7%|███▏                                           | 1/15 [00:08<01:58,  8.47s/trial, best loss: 5.370086069268862]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 13%|██████▎                                        | 2/15 [00:08<00:49,  3.79s/trial, best loss: 5.370086069268862]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 20%|█████████▍                                     | 3/15 [00:09<00:28,  2.37s/trial, best loss: 5.370086069268862]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 27%|████████████▌                                  | 4/15 [00:15<00:39,  3.60s/trial, best loss: 5.357490752366866]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 33%|███████████████▋                               | 5/15 [00:17<00:32,  3.28s/trial, best loss: 5.357490752366866]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 40%|██████████████████▊                            | 6/15 [00:27<00:47,  5.27s/trial, best loss: 5.354695072530291]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 47%|█████████████████████▉                         | 7/15 [00:35<00:51,  6.44s/trial, best loss: 5.354695072530291]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 53%|█████████████████████████                      | 8/15 [00:36<00:33,  4.73s/trial, best loss: 5.354695072530291]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 60%|████████████████████████████▏                  | 9/15 [00:42<00:29,  4.97s/trial, best loss: 5.354695072530291]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 67%|██████████████████████████████▋               | 10/15 [00:46<00:24,  4.84s/trial, best loss: 5.354695072530291]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 73%|█████████████████████████████████▋            | 11/15 [00:50<00:17,  4.43s/trial, best loss: 5.335419588556921]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 80%|████████████████████████████████████▊         | 12/15 [00:53<00:12,  4.01s/trial, best loss: 5.335419588556921]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 87%|███████████████████████████████████████▊      | 13/15 [00:54<00:06,  3.12s/trial, best loss: 5.335419588556921]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+ 93%|██████████████████████████████████████████▉   | 14/15 [00:57<00:03,  3.18s/trial, best loss: 5.335419588556921]/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+
+
+100%|██████████████████████████████████████████████| 15/15 [01:03<00:00,  3.79s/trial, best loss: 5.335419588556921]
+100%|██████████████████████████████████████████████| 15/15 [01:03<00:00,  4.21s/trial, best loss: 5.335419588556921]
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ python register_model.py 
+2024/05/27 13:29:04 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+2024/05/27 13:29:09 WARNING mlflow.utils.autologging_utils: MLflow autologging encountered a warning: "/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/_distutils_hack/__init__.py:26: UserWarning: Setuptools is replacing distutils."
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+2024/05/27 13:29:13 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+2024/05/27 13:29:26 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+2024/05/27 13:29:35 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+2024/05/27 13:29:44 WARNING mlflow.sklearn: Failed to log training dataset information to MLflow Tracking. Reason: 'numpy.ndarray' object has no attribute 'toarray'
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+/home/codespace/anaconda3/envs/experiment-tracking/lib/python3.9/site-packages/sklearn/metrics/_regression.py:483: FutureWarning: 'squared' is deprecated in version 1.4 and will be removed in 1.6. To calculate the root mean squared error, use the function'root_mean_squared_error'.
+  warnings.warn(
+Registered model 'lowest-test-rmse-model' already exists. Creating a new version of this model...
+2024/05/27 13:29:52 INFO mlflow.store.model_registry.abstract_store: Waiting up to 300 seconds for model version to finish creation. Model name: lowest-test-rmse-model, version 2
+Created version '2' of model 'lowest-test-rmse-model'.
+(experiment-tracking) [0;32m@thanhnhatt29 [0m➜ [1;34m/workspaces/mlops-zoomcamp/02-experiment-tracking/homework [0;36m([1;31mmain[0;36m) [0m$ e[Kẽi[K[Ke[Kẽ[Kexit
+exit
+
+Script done on 2024-05-27 13:31:06+00:00 [COMMAND_EXIT_CODE="0"]

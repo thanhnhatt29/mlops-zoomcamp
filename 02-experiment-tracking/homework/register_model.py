@@ -68,6 +68,7 @@ def run_register_model(data_path: str, top_n: int):
     for run in runs:
         train_and_log_model(data_path=data_path, params=run.data.params)
 
+    # Question 6: Promote the best model to the model registry
     # Select the model with the lowest test RMSE
     experiment = client.get_experiment_by_name(EXPERIMENT_NAME)
     best_run = client.search_runs( 
@@ -76,6 +77,7 @@ def run_register_model(data_path: str, top_n: int):
         order_by=["metrics.test_rmse ASC"]
      )[0]
 
+    # Question 6: Promote the best model to the model registry
     # Register the best model
     mlflow.register_model(
         f"runs:/{best_run.info.run_id}/model",
