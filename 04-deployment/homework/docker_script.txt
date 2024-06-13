@@ -1,0 +1,2 @@
+docker build -t homework04:v1 .
+docker run -it --rm homework04:v1
